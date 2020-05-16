@@ -8,8 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "formik": "^2.1.4",
     "next": "9.4.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "yup": "^0.28.5"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.7"
   }
 }
