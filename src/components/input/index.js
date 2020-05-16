@@ -10,6 +10,7 @@ const Input = (props) => {
       {...props}
       fullWidth
       variant="outlined"
+      id={name}
       name={name}
       value={formik.values[name]}
       onChange={formik.handleChange}
